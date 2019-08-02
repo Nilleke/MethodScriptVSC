@@ -50,7 +50,8 @@
           ".mslp"
         ],
         "aliases": [
-          "MethodScript"
+          "MethodScript",
+          "CommandHelper"
         ],
         "firstLine": "#!/usr/bin/env /usr/local/bin/mscript",
         "configuration": "./language-configuration.json"
@@ -59,8 +60,8 @@
     "grammars": [
       {
         "language": "mscript",
-        "scopeName": "source.mscript",
-        "path": "./syntaxes/mscript.tmLanguage.json"
+        "scopeName": "source.MScript",
+        "path": "./syntaxes/mscript.tmLanguage"
       }
     ]
   },
